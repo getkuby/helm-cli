@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'helm-rb', '~> 0.1'
 
   s.require_path = 'lib'
-  s.files = Dir['{lib,spec,vendor}/**/*', 'Gemfile', 'CHANGELOG.md', 'README.md', 'Rakefile', 'helm-cli.gemspec']
+  s.files = Dir['{lib,spec,vendor}/**/*', 'Gemfile', 'LICENSE', 'CHANGELOG.md', 'README.md', 'Rakefile', 'helm-cli.gemspec']
 end
