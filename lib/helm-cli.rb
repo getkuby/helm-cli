@@ -74,7 +74,7 @@ class HelmCLI
     systemm(cmd)
 
     unless last_status.success?
-      raise InstallError, "could not upgrade chart '#{name}': helm "\
+      raise InstallError, "could not upgrade chart '#{release}': helm "\
         "exited with status code #{last_status.exitstatus}"
     end
   end
